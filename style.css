@@ -1,0 +1,198 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+        --font-family:"Roboto", sans-serif, 700;
+        --font-family: "ColfaxAI",-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+        --primary-color: #10a37f;
+        --primary-color-no-override: #10a37f;
+        --action-primary-color: #10a37f;
+        --link-color: #10a37f;
+        --input-box-shadow-depth: 1px;
+        --page-background-color: #ffffff;
+        --signup:#10a37f;
+        --button:#0088cc;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-logo {
+    width: 32px;
+    height: 32px;
+    fill: #202123;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+#email {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-indent:10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+    flex-direction: column;
+}
+
+.submit {
+    background-color: var(--link-color);
+    color: #ffffff;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    border:none;
+    transition: .5s ease;
+    }
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #0d7a5f;
+}
+
+p {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sign-up {
+    color: var(--signup);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.div-or::before,
+.div-or::after {
+    background-color: rgb(199, 199, 199);
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.div-or::before {
+    right: 0.5rem;
+}
+
+.div-or::after {
+    left: 0.5rem;
+}
+
+.buttons {
+    margin-top: -130px;
+}
+
+button {
+    height: 40px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 3px;
+    border-width: 1px;
+    transition: .5s ease;
+    margin-left: -10px;
+}
+
+#gmail-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px;
+}
+
+#microsoft-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px;
+}
+
+#gmail-button::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(gmail.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#microsoft-button::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url(microsoft.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#cacaca ;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+a {
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;;
+    font-weight: 400;
+
+    text-decoration: none;
+}
+
+.footer1 {
+    color: var(--primary-color);
+    margin: 0 10px;
+}
+
+.footer2 {
+    color: var(--primary-color);
+
+    margin: 0 10px;
+}
