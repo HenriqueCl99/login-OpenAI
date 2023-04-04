@@ -120,20 +120,21 @@ button {
     border-width: 1px;
     transition: .5s ease;
     margin-left: -10px;
+    background-color: #ffffff;
 }
 
 #gmail-button {
     position: relative;
     padding: 10px 20px;
     font-size: 16px;
-    border: 1px;
+    border: 1px solid ;
 }
 
 #microsoft-button {
     position: relative;
     padding: 10px 20px;
     font-size: 16px;
-    border: 1px;
+    border: 1px solid;
 }
 
 #gmail-button::before {
